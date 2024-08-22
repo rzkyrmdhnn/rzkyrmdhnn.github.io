@@ -118,22 +118,23 @@ for (let i = 0; i < navigationLinks.length; i++) {
 }
 
 // Fungsi untuk menampilkan pesan selamat datang
-// function welcomeMessage() {
-//   alert("Welcome to my portfolio");
-//   askName();
-// }
+function welcomeMessage() {
+  alert("Welcome to my portfolio");
+  askName();
+}
 
-// // Fungsi untuk menampilkan alert dengan input nama
-// function askName() {
-//   var name = prompt("What's your name?", "");
-//   while (name == null || name == "") {
-//       alert("Name was not entered. Please enter your name.");
-//       name = prompt("What's your name?", "");
-//   }
-//   alert("Hello, " + name + "! 😊");
-// }
+// Fungsi untuk menampilkan alert dengan input nama
+function askName() {
+  var name = prompt("What's your name?", "");
+  while (name == null || name == "") {
+      alert("Name was not entered. Please enter your name.");
+      name = prompt("What's your name?", "");
+  }
+  alert("Hello, " + name + "! 😊");
+}
 
-// window.onload = welcomeMessage;
+// Panggil fungsi welcomeMessage saat halaman dimuat
+window.onload = welcomeMessage;
 
 // Fungsi untuk menampilkan pesan selamat datang
 // function welcomeMessage() {
